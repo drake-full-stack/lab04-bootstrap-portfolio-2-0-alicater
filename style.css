@@ -12,9 +12,8 @@ body {
 }
 
 /* Navigation */
-nav {
-    background-color: #333;
-    padding: 1rem 0;
+.custom-nav-bg {
+    background-color: rgb(78, 90, 117);
 }
 
 nav ul {
@@ -25,13 +24,13 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: rgb(106, 120, 161);
     border-radius: 4px;
 }
 
@@ -45,7 +44,7 @@ section {
 /* Hero Section */
 #hero {
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #ecf5fb;
 }
 
 #hero h1 {
@@ -68,7 +67,7 @@ h2 {
 
 /* Projects */
 .project {
-    background-color: #f9f9f9;
+    background-color: #ecf5fb;
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 8px;
@@ -109,9 +108,50 @@ h2 {
     z-index: 10;
 }
 
+/* Button styling for Projects */
+.icon-btn-stacked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    padding: 0.35rem 0.25rem;
+}
+
+.icong-lg {
+    width: 17px;
+    height: 15px;
+    margin-bottom: 0.15rem
+}
+
+.btn-text-sm {
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.btn-primary {
+    --bs-btn-bg: #6d90c8; 
+    --bs-btn-border-color: #6d90c8;
+    
+    --bs-btn-hover-bg: #5a77a6; 
+    --bs-btn-hover-border-color: #5a77a6;
+    
+    --bs-btn-active-bg: #475f85; 
+    --bs-btn-active-border-color: #475f85;
+}
+  
+.btn-outline-primary {
+    --bs-btn-color: #6d90c8;
+    --bs-btn-border-color: #6d90c8;
+    --bs-btn-hover-bg: #6d90c8;
+    --bs-btn-hover-border-color: #6d90c8;
+    --bs-btn-active-bg: #6d90c8;
+    --bs-btn-active-border-color: #6d90c8;
+}
+
 /* Contact Section */
 #contact {
-    background-color: #f4f4f4;
+    background-color: #ecf5fb;
     text-align: center;
 }
 
@@ -121,7 +161,7 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: rgb(78, 90, 117);
     color: white;
     text-align: center;
     padding: 2rem;
